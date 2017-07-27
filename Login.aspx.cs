@@ -19,7 +19,7 @@ public partial class Account_Login : System.Web.UI.Page
 
     protected void LogIn(object sender, EventArgs e)
     {
-        SqlConnection vid = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=Fogbots;Integrated Security=True");
+        SqlConnection vid = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=" ";Integrated Security=True");
         vid.Open();
         string checkuser = "Select count(*) from Users where email='" + UserName.Text + "'";
         SqlCommand com = new SqlCommand(checkuser, vid);
