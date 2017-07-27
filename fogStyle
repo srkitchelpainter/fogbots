@@ -1,0 +1,191 @@
+/* 	Filename: fpwebsite.css
+	Author: Shannon Painter
+	Purpose: Final project external stylesheet
+	Create Date: 21 Nov 2016
+*/
+
+body 	{font-family: Tahoma, Geneva, Arial, sans-serif;
+		 background-color: #FFFAFA;					
+         font-size: 14px; 		
+		 line-height: 1.6em;
+		 color: #363636;
+			}
+
+header {padding: 0px;					 
+		margin: 5px;
+		text-align: left;
+		 }
+		
+nav#top {background-color: #d89840;  /*creates unique style for all four pages' menu bar*/
+		 padding: 0px;
+		 margin: 0px;			
+		 display: inline;
+		 text-align: right;
+		 font-size: 20px;          /* 8.  example of a style that overrides another */
+		 } 
+		
+nav#top ul {list-style-type: none;   
+			background-color: #d89840; 
+			border-radius: 5px;	
+			padding: 15px;
+			margin: 15px;
+			 } 
+		
+nav ul li.space {display: inline; /*creates space between menu items*/
+				 padding: 10px;
+				 margin: 10px;
+				 } 
+			
+nav ul li a:link, nav ul li a:visited 	{color: white;            /*creates unique effect for menu items*/
+										 border-bottom: none;    
+										 font-weight: normal; 
+										 text-decoration: none;
+										   } 
+		
+#fd		{display: table;				/*establishes functional design page formatting*/
+		 width: 1000px;
+		 margin-left:  auto;        						
+		 margin-right: auto;
+		 border: 5px;
+		 padding: 5px;
+		 background-color: #DCDCDC;
+			}
+		
+#allcontent {width: 1200px;				/*establishes jello page*/								
+			 padding-top:    5px;    							
+			 padding-bottom: 5px;        					
+			 margin-left:  auto;        						
+			 margin-right: auto;
+				}    		
+
+#product {right: 50px;			     /*creates unique style for fixed link to product*/				
+		  top: 200px; 
+		  position: fixed;							
+		  border: thin solid black;					
+		  padding: 5px;
+		  margin: 5px;}    	
+
+nav#product {font-family: Tahoma, Geneva, sans-serif;			
+			 display: inline;
+			} 
+			
+nav#product ul  {list-style-type: none;   
+				 border-radius: 5px;	
+				 padding: 0px;
+				 margin: 0px;
+				 text-align: center;
+				} 
+	
+h1 	{font-size: 150%;
+     font-weight: bold;
+	 } 		
+
+section#welcome {margin: 5px;       /*creates unique style for welome message*/
+				 padding: 5px;
+				 text-align: left;
+				 width: 800px;
+					  }
+				  			  
+section#advertisement, section#video {margin: 5px;      /*centers advertisement image and video on page*/
+									  padding: 20px;
+									  text-align: center;
+										}
+
+table {caption-side: top;
+		margin: 20px 20px 0px 20px;    
+		padding: 20px 20px 0px 20px;  
+	    color: #363636;} 
+
+tr {font-size: 125%; 
+	   }
+
+td {margin: 20px;    
+	padding: 20px;
+		}
+	   
+caption {font-weight: bold; 
+		 text-shadow: 5px 5px 5px silver;   /* 15. an example of typography */
+		 padding: 25px; 
+		 font-size: 150%;
+		 line-height: 2em;
+			}
+
+table.pricing {border: thin solid black;  /*Unique styling for pricing data table.*/
+		       padding: 5px;
+			   margin: 5px 50px 50px 400px;
+			   text-align: center;
+			   }
+			  
+th.pricing {border: thin solid black;
+			padding: 15px;
+			margin: 15px;		
+		    background-color: silver; 
+		      }  
+
+		   
+td.pricing {border: thin dotted gray;    
+		    padding: 15px;
+			margin: 15px;	 
+			} 
+
+caption.pricing {font-weight: bold; 
+				 text-shadow: none;   
+				 padding: 5px; 
+				 font-size: 150%;
+				 line-height: 2em;
+				  }
+				 
+blockquote {background-color: black;
+			margin-left: 600px;
+			padding: 20px;
+			text-align: right;
+			color: white;
+			font-size: 125%;
+			line-height: 1.6em;}
+
+dt {font-weight: bold; }
+
+#rollover ol {margin: 0px;			/* 16. create CSS roll-over effect */
+			  padding: 0px;
+				}
+
+#rollover li { margin: 1.5em; }
+
+#rollover a {display: block;
+				color: white;
+				background-color: #d89840 ;
+				width: 400px;
+				padding: 10px;
+				text-decoration: none;
+					}
+
+#rollover a:hover {background-color: silver;
+					}			
+
+footer	{border-top: 1px solid black;
+		 clear: left;
+			}
+			
+nav#footer {font-family: Tahoma, Geneva, sans-serif;
+			padding: 0px;
+			margin: 0px;			
+			display: inline;
+			} 
+		
+nav#footer ul  {list-style-type: none;   
+				border-radius: 5px;	
+				padding: 5px;
+				margin: 5px;
+				color: #363636;
+				text-align: center;
+				} 
+
+
+
+
+
+
+
+
+
+
